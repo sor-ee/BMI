@@ -27,6 +27,7 @@ int main()
 	cal_total(total);
 	cout << "your score is ";
 	cout << (total>=50?"PASS" : "FAIL") << endl;
+	system(pause);
 	return 0;
 }
 void cal_quizztotal(float quizz_total)
